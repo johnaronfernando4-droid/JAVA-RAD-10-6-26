@@ -1,0 +1,51 @@
+// A#1 DIAGNOSTIC ACTIVITY 
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter your name: ");
+        String userName = scanner.next();
+
+        System.out.print("Enter your address: ");
+        String userAddress = scanner.next();
+        
+        System.out.print("Enter your age: ");
+        int userAge = scanner.nextInt();
+        
+        System.out.print("Enter your weight: ");
+        float userWeight = scanner.nextFloat();
+        
+        System.out.print("Enter your height: ");
+        float userHeight = scanner.nextFloat();
+        
+        System.out.println("Your name is " + userName + " You are " + userAge + " years old. You lived in " + userAddress + " Your weight is " + userWeight + " and your height is " + userHeight + " meter.");
+
+        scanner.close();
+    }
+}
+
+// A#2 DIAGNOSTIC ACTIVITY
+import java.util.Scanner
+class Main {
+    public static void main(String[] args) {
+        Scanner number = new Scanner(System.in);
+
+        System.out.print("Enter a number divisible by 30 and not greater than by 30; ");
+        int userNumber = number.
+    }
+
+
+
+  // A#4
+public class Main {
+    public static void main(String[] args) {
+        int countdown = 50 ;
+
+        while (countdown > 0) {
+            System.out.println(countdown);
+            countdown--;
+        }
+    }
+}
+  
